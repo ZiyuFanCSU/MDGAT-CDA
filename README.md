@@ -34,9 +34,13 @@ In this study, we introduce a novel computational predictor called MGATCDA, aime
 ## Data
 - Original data source：
 
-The datasets were derived from sources in the public domain: the circRNA-drug sensitivity associations from https://hanlab.tamhsc.edu/cRic/.
+The datasets were derived from sources in the public domain:
 
-The sequences of host genes of circRNAs from: https://www.ncbi.nlm.nih.gov/gene, the structure data of drugs from https://pubchem.ncbi.nlm.nih.gov/. 
+The circRNA-drug sensitivity associations from https://hanlab.tamhsc.edu/cRic/.
+
+The sequences of host genes of circRNAs from: https://www.ncbi.nlm.nih.gov/gene.
+
+The structure data of drugs from https://pubchem.ncbi.nlm.nih.gov/. 
 
 The names of the drugs and circRNAs used in the experiment can be found on: https://github.com/yjslzx/GATECDA.
 
