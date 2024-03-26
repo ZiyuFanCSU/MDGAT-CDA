@@ -70,7 +70,7 @@ parser.add_argument('--CDA_nn_nhid', type=list, default=[512,512,512],
                     help='DTI_nn hidden layer dim, like [200,100] for tow hidden layers')
 ###############################################################
 # data
-parser.add_argument('--dataset', type=str, default='enzyme',
+parser.add_argument('--dataset', type=str, default='kfold',
                     help='dataset name')
 parser.add_argument('--data_path', type=str, default='./five_ten_cv_data/five',
                     help='dataset root path')
