@@ -10,9 +10,10 @@ This repository contains the PyTorch implementation of *Predicting CircRNA-Media
 
 Discovering associations between circular RNAs (circRNAs) and cellular drug sensitivity is essential for understanding drug efficacy and therapeutic resistance. 
 Traditional experimental methods to verify such associations are costly and timeconsuming. Thus, the development of efficient computational methods for predicting circRNA-drug associations is crucial. 
+
 In this study, we introduce a novel computational predictor called MGATCDA, aimed at predicting potential circRNA-drug sensitivity associations.
 
-![modeloverview.png](img%modeloverview.png)
+![modeloverview.png](https://github.com/ZiyuFanCSU/MGATCDA.git/img/modeloverview.png)
 
 ## Requirements
 - python==3.8
@@ -31,14 +32,20 @@ In this study, we introduce a novel computational predictor called MGATCDA, aime
 - torch-spline-conv==1.2.2+pt20cu118 
 
 ## Data
-Original data source：
+- Original data source：
+
 The datasets were derived from sources in the public domain: the circRNA-drug sensitivity associations from https://hanlab.tamhsc.edu/cRic/.
+
 The sequences of host genes of circRNAs from: https://www.ncbi.nlm.nih.gov/gene, the structure data of drugs from https://pubchem.ncbi.nlm.nih.gov/. 
+
 The names of the drugs and circRNAs used in the experiment can be found on: https://github.com/yjslzx/GATECDA.
+
 The SMILES of drugs can be found in: ./data/data_smile.npy.
 
-Processed feature data：
+- Processed feature data：
+
 5-fold cross-validation data in: ./five_ten_cv_data/five/
+
 10-fold cross-validation data in: ./five_ten_cv_data/ten/
 
 ## Train
