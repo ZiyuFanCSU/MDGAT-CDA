@@ -1,8 +1,8 @@
 
-# MGATCDA
+# MDGAT-CDA
 
 ----
-This repository contains the PyTorch implementation of *Predicting CircRNA-Mediated Drug Sensitivity through Multi-head Graph Attention Networks*. 
+This repository contains the PyTorch implementation of *Predicting CircRNA-Mediated Drug Sensitivity through Multi-head dynamic Graph Attention Networks*. 
 
 **Update on 03/26/2024** 
 
@@ -11,9 +11,9 @@ This repository contains the PyTorch implementation of *Predicting CircRNA-Media
 Discovering associations between circular RNAs (circRNAs) and cellular drug sensitivity is essential for understanding drug efficacy and therapeutic resistance. 
 Traditional experimental methods to verify such associations are costly and timeconsuming. Thus, the development of efficient computational methods for predicting circRNA-drug associations is crucial. 
 
-In this study, we introduce a novel computational predictor called MGATCDA, aimed at predicting potential circRNA-drug sensitivity associations.
+In this study, we introduce a novel computational predictor called MDGAT-CDA, aimed at predicting potential circRNA-drug sensitivity associations.
 
-![modeloverview.png](https://github.com/ZiyuFanCSU/MGATCDA/blob/main/img/modeloverview.png)
+![modeloverview.png](https://github.com/ZiyuFanCSU/MDGAT-CDA/blob/main/img/modeloverview.png)
 
 ## Requirements
 - python==3.8
